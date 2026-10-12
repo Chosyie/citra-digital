@@ -1,13 +1,14 @@
-# 🔬 Analisis Mendalam: Pembuktian Citra Digital sebagai Entitas Matematis
+# Pembuktian Citra Digital sebagai Entitas Matematis
 
-Repository ini disusun untuk membuktikan secara terprogram bahwa sebuah gambar (citra digital) pada hakikatnya bukanlah entitas visual, melainkan **susunan matriks angka** yang dirender oleh komputer. 
+**Nama     : Fitra Chosy Aditya**  
+**Nim      : 22260012**
 
-Berbeda dengan pembuktian visual biasa, repository ini menggunakan **3 pendekatan validasi** sekaligus untuk membongkar anatomi gambar hingga ke tingkat byte dan topografi 3D.
+## Persiapan & Instalasi Lingkungan Kerja
+`OpenCV` (Computer Vision)  
+`NumPy` (Komputasi Matriks)  
+dan `Matplotlib` (Visualisasi Data).
 
-## 🛠️ Persiapan & Instalasi Lingkungan Kerja
-Dikembangkan menggunakan bahasa pemrograman Python dengan pustaka: `OpenCV` (Computer Vision), `NumPy` (Komputasi Matriks), dan `Matplotlib` (Visualisasi Data).
-
-## 📊 3 Level Pembuktian
+## Pembuktian
 
 ### 1. Pembuktian Fisis (Tingkat Hexadecimal)
 Sebelum diproses menjadi warna di layar, file `.jpg` hanyalah rangkaian kode biner di memori. Script `pembuktian_citra.py` membuktikan hal ini dengan membaca gambar secara *raw binary bytes*:
